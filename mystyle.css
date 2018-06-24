@@ -1,7 +1,46 @@
-body{
-	background-color:pink;
+body {
+    background-color: #ecafb3;
 }
-h1{
-	color:#cc3300
-	margin-top:20px;
+
+h1 {
+    color: #cc3300;
+    margin: 20px;
+`   font-family:  "Tangerine", serif;
+    font-size: 50px;
+}
+
+img {
+    padding-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #9a45f9;
+}
+
+p.solid {
+    border-style: solid;
+    font-family: "Open Sans", sans-serif;
+}
+p {
+    font-family: "Open Sans", sans-serif;
 }
